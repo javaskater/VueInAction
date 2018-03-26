@@ -1,0 +1,22 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "description": "Simple claculator with and withourt Vue.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node node_modules/http-server/bin/http-server",
+    "gulp": "node node_modules/gulp-cli/bin/gulp.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-cli": "^2.0.1",
+    "gulp-markdown": "^2.0.1",
+    "gulp-markdown-docs": "^0.1.5",
+    "gulp-rename": "^1.2.2",
+    "http-server": "^0.11.1"
+  }
+}
