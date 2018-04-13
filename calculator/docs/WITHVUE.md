@@ -2,6 +2,9 @@
 
 ## That time using the Framework
 
+* This is the ModeVue _Vue_
+  * linked the view by el: on thid ModeVue Side
+
 ```javascript
 function isNotNumericValue(value) {
     return isNaN(value) || !isFinite(value);
@@ -22,4 +25,15 @@ var calc = new Vue({
         }
     }
 });
+```
+
+* The vue itself is in the Html:
+
+```html
+<div id="app">
+    <p>x <input v-model="x"></p>
+    <p>y <input v-model="y"></p>
+    <p>---------------------</p>
+    <p>= <span v-text="result"></span></p>
+</div>
 ```
